@@ -16,7 +16,7 @@ This project is a simplified backend system similar to Twitter, built using Node
 
 ### API Endpoints
 ### User Registration
-Endpoint: POST /api/users/register
+Endpoint: POST /api/users/register.
 Description: Register a new user.
 Request Body:
 {
@@ -25,7 +25,7 @@ Request Body:
 }
 
 ### User Login
-Endpoint: POST /api/users/login
+Endpoint: POST /api/users/login.
 Description: Login a user and receive a JWT token.
 Request Body:
 {
@@ -34,8 +34,8 @@ Request Body:
 }
 
 ### Post a Tweet
-Endpoint: POST /api/tweets
-Description: Post a new tweet
+Endpoint: POST /api/tweets.
+Description: Post a new tweet.
 
 ### Headers
 Authorization: Bearer <token>
@@ -45,7 +45,7 @@ Request Body:
 }
 
 ### Fetch User Timeline
-Endpoint: GET /api/users/:userId/timeline
+Endpoint: GET /api/users/:userId/timeline.
 Description: Fetch the timeline of a user.
 ### Headers
 Authorization: Bearer <token>
